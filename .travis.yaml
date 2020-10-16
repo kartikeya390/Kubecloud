@@ -7,4 +7,4 @@ deploy:
   provide : pages
   on:
      branch: main
-
+     github-token: new
