@@ -5,6 +5,8 @@ install:
   - mongodb install
 deploy:
   provide : pages
+  github-token: new
+  local-dir: build
   on:
      branch: main
-     github-token: new
+     
