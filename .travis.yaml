@@ -1,12 +1,10 @@
 language : node_js
-node_js =
-       -11.6.0
-
+node_js :
+  - 11.6.0
 install:
-      -php install
-
+  - mongodb install
 deploy:
-     provide : pages
-     on:
-       branch: main
+  provide : pages
+  on:
+     branch: main
 
